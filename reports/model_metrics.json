@@ -1,0 +1,44 @@
+{
+  "random_state": 42,
+  "test_size": 0.2,
+  "cv_folds": 5,
+  "dataset_rows": 303,
+  "training_rows": 242,
+  "test_rows": 61,
+  "selected_model": "Logistic Regression",
+  "selection_metric": "mean cross-validation ROC-AUC",
+  "model_artifact": "artifacts\\models\\heart_disease_best_model.joblib",
+  "mlflow_experiment": "Heart Disease Classification",
+  "results": [
+    {
+      "model": "Logistic Regression",
+      "cv_accuracy_mean": 0.8471088435374149,
+      "cv_accuracy_std": 0.011154537487383865,
+      "cv_precision_mean": 0.8767529146045769,
+      "cv_precision_std": 0.06058662420334015,
+      "cv_recall_mean": 0.783399209486166,
+      "cv_recall_std": 0.05133777238455549,
+      "cv_roc_auc_mean": 0.9024931590148981,
+      "cv_roc_auc_std": 0.016144356233184404,
+      "test_accuracy": 0.8852459016393442,
+      "test_precision": 0.8387096774193549,
+      "test_recall": 0.9285714285714286,
+      "test_roc_auc": 0.9664502164502166
+    },
+    {
+      "model": "Random Forest",
+      "cv_accuracy_mean": 0.8137755102040817,
+      "cv_accuracy_std": 0.03443221361857767,
+      "cv_precision_mean": 0.8037564307037991,
+      "cv_precision_std": 0.05085385256881828,
+      "cv_recall_mean": 0.791699604743083,
+      "cv_recall_std": 0.09550383754995129,
+      "cv_roc_auc_mean": 0.896432552954292,
+      "cv_roc_auc_std": 0.03505642517980423,
+      "test_accuracy": 0.8688524590163934,
+      "test_precision": 0.8125,
+      "test_recall": 0.9285714285714286,
+      "test_roc_auc": 0.9491341991341992
+    }
+  ]
+}

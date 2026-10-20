@@ -1,0 +1,39 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+*.py[cod]
+.env
+.DS_Store
+mlruns/
+artifacts/*
+!artifacts/.gitkeep
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+reports/figures/*
+!reports/figures/.gitkeep
+screenshots/*
+!screenshots/.gitkeep
+
+# Local MLflow tracking database
+mlflow.db
+mlflow.db-shm
+mlflow.db-wal
+mlartifacts/
+
+# Local editor configuration
+.vscode/
+
+# Keep the trained model needed by the API and tests
+!artifacts/models/
+!artifacts/models/heart_disease_best_model.joblib
+
+# Include EDA and model evaluation figures in the repository
+!reports/figures/class_balance.png
+!reports/figures/correlation_heatmap.png
+!reports/figures/eda_summary.json
+!reports/figures/feature_histograms.png
+!reports/figures/model_comparison.png
+!reports/figures/roc_curves.png
