@@ -40,3 +40,6 @@ mlartifacts/
 
 # Include assignment evidence screenshots
 !screenshots/*.png
+
+# Include the cleaned dataset required for the assignment
+!data/processed/heart_disease_clean.csv
