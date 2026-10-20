@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: heart-disease-api
 spec:
-  type: ClusterIP
+  type: LoadBalancer
   selector:
     app: heart-disease-api
   ports:
