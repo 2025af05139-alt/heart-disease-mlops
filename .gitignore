@@ -37,3 +37,6 @@ mlartifacts/
 !reports/figures/feature_histograms.png
 !reports/figures/model_comparison.png
 !reports/figures/roc_curves.png
+
+# Include assignment evidence screenshots
+!screenshots/*.png
